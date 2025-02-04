@@ -7,8 +7,8 @@ function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
         {/* Logo & Tagline */}
         <div>
-            <Link to="/">
-          <h2 className="text-3xl font-extrabold text-blue-500">SmartToon</h2>
+          <Link to="/">
+            <h2 className="text-3xl font-extrabold text-blue-500">SmartToon</h2>
           </Link>
           <p className="text-sm mt-2 text-gray-600">
             Learning made fun, with cartoons!
@@ -19,21 +19,21 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-blue-500">Quick Links</h3>
           <ul className="mt-3 space-y-2">
-            <Link to="/books">
-            <li><a className="hover:text-blue-700">📚 Books</a></li>
-            </Link>
-            <Link to="/videos">
-            <li><a  className="hover:text-blue-700">🎥 Videos</a></li>
-            </Link>
-            <Link to="/games">
-            <li><a  className="hover:text-blue-700">🎮 Games</a></li>
-            </Link>
-            <Link to='/leaderboard'>
-            <li><a  className="hover:text-blue-700">🏆 Leaderboard</a></li>
-            </Link>
-          <Link to="/parent dashboard">
-        <li><a  className="hover:text-blue-700">👨‍👩‍👧 Parent Dashboard</a></li>
-          </Link>
+            <li>
+              <Link to="/books" className="hover:text-blue-700">📚 Books</Link>
+            </li>
+            <li>
+              <Link to="/videos" className="hover:text-blue-700">🎥 Videos</Link>
+            </li>
+            <li>
+              <Link to="/games" className="hover:text-blue-700">🎮 Games</Link>
+            </li>
+            <li>
+              <Link to="/leaderboard" className="hover:text-blue-700">🏆 Leaderboard</Link>
+            </li>
+            <li>
+              <Link to="/parent-dashboard" className="hover:text-blue-700">👨‍👩‍👧 Parent Dashboard</Link>
+            </li>
           </ul>
         </div>
 
